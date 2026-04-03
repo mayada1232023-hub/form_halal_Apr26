@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PROSES PRODUK HALAL</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff; /* biru langit */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+  header img.logo {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      height: 50px;
+    }
+    .header-content {
+      
+      margin-left: 100px;
+    }
+    .subtext-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .subtext-nav p {
+      margin: 0;
+      font-size: 16px;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+   
+    .hero-image {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .hero-image img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .cta {
+      background-color: #ffffffaa;
+      padding: 20px;
+      border-radius: 8px;
+      
+      margin-bottom: 30px;
+    }
+
+    .form-container {
+      background-color: #e0e0e0;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .form-container label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .form-container input,
+    .form-container select,
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      text-transform: uppercase;
+    }
+
+    .form-container button {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #005f99;
+    }
+    .btn-kirim, .btn-keluar {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.btn-kirim {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.btn-kirim:hover {
+  background-color: #218838;
+}
+
+.btn-keluar {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-keluar:hover {
+  background-color: #e0a800;
+}
+
+
+    footer {
+  width: 100 vh;
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: auto;
+}
+   @media (max-width: 768px) {
+      header h2 {
+        font-size: 20px;
+      }
+      .form-container {
+        padding: 15px;
+      }
+      .subtext-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+    body { font-family: sans-serif; max-width: 600px; margin: 20px auto; }
+    label { display: block; margin-top: 16px; font-weight: bold; }
+    input, select { width: 100%; padding: 8px; margin-top: 4px; }
+    .hidden { display: none; }
+  </style>
+
+
+  
+  <!-- HEADER dan FOOTER-->
+  <header>
+    <img src="https://pinturizkymyfamily.biz.id/uploads/logo bpjph.jpg" alt="Logo" class="logo img-responsive">
+  <div class="header-content">
+    <h2>PROSES PRODUK HALAL</h2>
+    <p>Langkah Mudah Sertifikasi Halal Produk Anda</p>
+    <div class="navbar">
+      <nav>
+        <a href="#tentang">Tentang Kami</a>
+		<a href="#syarat">Syarat</a>
+        <a href="#formHalal">Daftar</a>
+      </nav>
+    </div>
+  </div>
+  </header>
+  
+ 
+   <!-- SECTION CTA / COPYWRITING -->
+  <div class="section">
+    <div class="cta">
+	  <h2>PERHATIAN</h2><br>
+      
+	    <p>Badan Penyelenggara Jaminan Produk Halal (BPJPH) menegaskan bahwa mulai 18 Oktober 2026 seluruh produk makanan dan minuman pelaku usaha mikro dan kecil (UMK) wajib sudah bersertifikat halal. Pemberlakuan kewajiban ini sesuai amanat UU nomor 33 Tahun 2014 tentang Jaminan Produk Halal (JPH) dan Peraturan Pemerintah Nomor 42 Tahun 2024 tentang Penyelenggaraan Bidang Jaminan Produk Halal.
+
+Kepala BPJPH RI, Ahmad Haikal Hasan, menekankan pentingnya tertib halal agar pelaku usaha tidak hanya siap menghadapi kewajiban sertifikasi halal, namun juga sebagai strategi pngembangan bisnis.
+
+"Tertib halal yang dijalankan dari sekarang sangat penting, karena selain memenuhi regulasi, hal ini juga menjadi strategi untuk memperkuat ekosistem bisnis di Indonesia,” ujar Babe Haikal, sapaan akrabnya, pada acara Gathering dengan Media dan Pelaku Usaha bersama Kepala BPJPH, bertempat di Main Atrium Mall Ciputra Cibubur, Bekasi, Senin (6/10/2025).
+        </p><br>
+		<a href="https://bpjph.halal.go.id/detail/sambut-wajib-halal-oktober-2026-kepala-bpjph-serukan-tertib-halal-sebagai-strategi-penguatan-bisnis
+"><b>Klik Lihat</b></a>
+		
+		<a href="#formHalal"><b>Klik Daftar</b></a>
+    </div>
+  
+  <section class="hero-image" id="testimoni">
+    <div class="cta">
+	  <div class="row text-center">
+      <h2>TESTIMONI</h2><br>
+	     <img src="https://pinturizkymyfamily.biz.id/uploads/irfanviewestehkangen1.jpg" alt="Testimoni" style="width:20%; max-width:600px; margin-top:20px; border-radius:10px;" class="img-responsive"><br>
+          <p>Warung Aisyah di Kp Ceger Cikunir</p>
+		  <img src="https://pinturizkymyfamily.biz.id/uploads/verval_pu1.jpg" alt="Testimoni" style="width:20%; max-width:600px; margin-top:20px; border-radius:10px;" class="img-responsive"><br>
+          <p>Cincau Hijau Ustadz Iwan</p>
+		  <img src="https://pinturizkymyfamily.biz.id/uploads/verval_pu2.jpg" alt="Testimoni" style="width:20%; max-width:600px; margin-top:20px; border-radius:10px;" class="img-responsive"><br>
+          <p>Warung Dabu makanan Khas Manado</p>
+		  <img src="https://pinturizkymyfamily.biz.id/uploads/verval_pu3.jpg" alt="Testimoni" style="width:20%; max-width:600px; margin-top:20px; border-radius:10px;" class="img-responsive"><br>
+          <p>Chiqu Banana Bu Mai</p>
+		  <img src="https://pinturizkymyfamily.biz.id/uploads/verval_pu4.jpg" alt="Testimoni" style="width:20%; max-width:600px; margin-top:20px; border-radius:10px;" class="img-responsive"><br>
+          <p>Bawang Goreng Bu Mai</p>
+         </div>
+	</div>
+	</section>
+  
+   
+
+ 
+	  <div class="section">
+      <div class="cta">
+	  <h2>KENAPA SERTIFIKASI HALAL ITU PENTING?</h2><br>
+	  <p style="color:red;" <b="">✅Untuk melindungi kaum Muslim dari terjebak makanan HARAM</p><br>
+      <h4>✅Sertifikasi Halal Adalah Amanah & Kewajiban</h4>
+      <p>✅Sesuai amanat Undang-Undang No. 33 Tahun 2014 tentang Jaminan Produk Halal dan PP no.39 Tahun 2021:
+         Setiap produk yang masuk, beredar, dan diperdagangkan di Indonesia <b>wajib bersertifikat halal</b>.
+      <p>✅ Karena halal bukan hanya hak konsumen, tapi kewajiban produsen.</p>
+      <p>✅ Karena label halal adalah bentuk tanggung jawab moral dan spiritual.</p>
+      <p>✅ Karena konsumen Muslim semakin cerdas dan selektif dalam memilih produk.</p>
+      <p>✅ Karena sertifikasi halal akan meningkatkan kredibilitas dan kepercayaan pada produk kita.</p>
+      <p>✅ Produk halal makin dicari.</p>
+      <p>✅ Peluang pasar makin terbuka jika kita siap jujur dan transparan.</p><br>
+       
+	   <a href="#syarat"><b>Klik Syarat</b></a>  
+       <a href="#formHalal"><b>Klik Daftar</b></a>
+    </div>
+ 	
+	<div class="cta">
+      <h2>Siapa Saja yang Bisa Daftar?</h2><br>
+      <p>Usaha rumahan, kuliner, makanan ringan, minuman, warung, UMK/UMKM semua bisa mendaftar. 
+      </p><h4>Kabar baik bagi UMK/UMKM!</h4>
+
+      <p>Saat ini Pemerintah melalui BPJPH (Badan Penyelenggara Jaminan Produk Halal) membuka akses sertifikasi halal secara <b>GRATIS (Rp 0)</b> bagi pelaku usaha kecil.
+         Program ini adalah bentuk peran aktif negara menjaga kehalalan konsumsi umat Islam.
+         Jangan lewatkan kesempatan ini karena waktu & quota terbatas!(hanya sampai Oktober 26)</p><br>      
+     </div> 
+     
+      <!-- GAMBAR UTAMA -->
+    <div class="hero-image">
+    <img src="https://pinturizkymyfamily.biz.id/uploads/banerhalaledit.png" alt="Proses Halal" class="img-fluid rounded mb-4 img-responsive">
+    </div>
+     
+     
+     
+  <section class="section" id="syarat">
+  <div class="cta">
+    <h2>Syarat-syarat Proses Produk Halal Gratis (Self Declare):</h2><br>
+	<p>1. <b>Jujur,</b> mengisi semua data dengan penuh tanggung jawab</p>
+	<p>2. Foto KTP aktif</p>
+    <p>3. Punya NIB (Nomer Induk Berusaha), jika belum punya akan kami buatkan Gratis</p>
+	<p>4. Tidak sedang proses sertifikasi halal</p>
+	<p>5. Menandatangi Surat Pernyataan Mematuhi Proses Produk Halal</p>
+    <p>6. Menjamin Bahan-bahan yang digunakan halal, atau punya sertifikat halal.</p> 
+	<p>   - Misal: gula merek G (ada sertifikat halalnya), minyak goreng yg ada sertifikat halalnya, tepung yg ada sertifikatnya, dst.</p>
+	<p>	  - Daging hewan sembelihan, ayam, bebek, kambing, sapi, kerbau, dst, harus yang bersertifikat halal.</p>
+	<p style="color:red;" <b="">- Tidak boleh dari bahan daging giling jadi.</p>
+	<p>   - Kecuali air bersih, ikan segar, buah-buahan segar, sayuran segar, biji-bijian dan sereal (beras, gandum, jagung, kacang-kacangan dst), tidak harus ada sertifikat halalnya</p>
+	<p>7. Menjamin Perlengkapan yang digunakan bersih dan halal</p>
+	<p>8. Menjamin Bahan yang digunakan untuk membersihkan perlengkapan berasal dari produk halal. Misal: sabun merek S yg ada sertifikat halalnya,dst</p>
+	<p>9. Menjamin Tempat produksi/dapur dan tempat jualan bersih dan terhindar dari hewan-hewan piaraan. Misal: ayam, burung, tikus, kucing, anjing, babi, dsb)</p>
+	<p>10. Maksimal punya 10 jenis produk</p>
+	<p>11. Usaha sudah berjalan minimal 1 tahun</p>
+	<p>12. Memiliki omset maksimal Rp 500.000.000/tahun (lima ratus juta)</p><br>
+	
+       <a href="#formHalal"><b>Klik Daftar</b></a>
+  </div>
+</section>
+    
+<section class="section" id="tentang">
+  <div class="cta">
+    <h2>Tentang Kami</h2><br>
+    <p>Kami adalah tim relawan Pendamping Proses Sertifikasi Halal yang siap membantu UMK/UMKM secara <b>GRATIS</b> dengan syarat tertentu dan <b>quota terbatas</b> melalui program pemerintah . Kami mendampingi mulai dari pendaftaran hingga selesai apabila semua syarat sudah terpenuhi.</p>
+    <img src="https://pinturizkymyfamily.biz.id/uploads/nametag.jpg" alt="Tentang Kami" style="width:40%; max-width:600px; margin-top:20px; border-radius:10px;" class="img-responsive">
+  </div>
+</section>
+    
+  </div>
+
+  <!-- FORM HALAL -->
+  
+  <h2>Formulir Pendaftaran</h2>
+    <div class="cta" id="formHalal">
+    <!-- A. Nama -->
+    <div id="step1">
+      
+      <label for="nama">Nama Anda/Pelaku Usaha:</label> 
+      <input type="text" id="nama" maxlength="25" class="form-control" oninput="enableNext('noHp', this)" " style="text-transform: uppercase;" placeholder="Isi Sesuai nama di KTP" required > 
+      <label for="noHp">Nomer aktif:</label> <input type="text" id="noHp" maxlength="15" class="form-control" required> 
+      <small>Pastikan nomor aktif agar tim bisa menghubungi Anda.</small>
+      <label for="namaAff">Nama Yang Kasi Info:</label> 
+      <input type="text" id="namaAff" maxlength="25" class="form-control" oninput="this.value = this.value.toUpperCase();" style="text-transform: uppercase;" required > 
+      <label for="noAff">Nomer Yang Kasi Info:</label> 
+      <input type="text" id="noAff" maxlength="15" class="form-control" required> 
+                              	  
+	   <!-- B. Agama -->   
+      <label for="agama">Agama</label>
+      <select id="agama" onchange="cekAgama()" class="form-control">
+        <option value="">-- Pilih Agama --</option>
+        <option value="Islam">Islam</option>
+        <option value="Non Islam">Non Islam</option>
+	 </select>
+	  
+    </div>
+       <!-- B lanjutan: Pertanyaan Penyelia jika Non Islam -->
+    <div id="step1a" class="hidden">
+      <label>Apakah punya karyawan Muslim & bersedia jadi Penyelia Halal?</label>
+      <select id="punyaPenyelia" onchange="cekPenyelia()" class="form-control">
+        <option value="">-- Pilih Jawaban --</option>
+        <option value="Ya">Ya</option>
+        <option value="Tidak">Tidak</option>
+      </select>
+    </div>
+   
+	   <!-- C Status NIB -->
+	  <div id="step2" class="hidden">
+      <label for="nibStatus">Apakah Sudah Punya Nomer Induk Berusaha (NIB):</label>
+      <select id="nibStatus" onchange="cekNib()" class="form-control">
+        <option value="">-- Pilih --</option>
+        <option value="Punya">Punya</option>
+        <option value="Belum Punya">Belum Punya</option>
+	 </select>
+	  
+    </div>
+	   
+	   <!-- C. Alamat -->
+    <div id="step5" class="hidden">
+       <p>Alamat tempat produksi/jualan</p>
+	   <label for="provinsi">Provinsi</label>
+      <input type="text" id="provinsi" value="JAWA BARAT" readonly="" ""="" class="form-control">
+      
+       <label for="kabupaten">Kabupaten/Kota</label>
+      <select id="kabupaten" onchange="tampilkanKecamatan()" class="form-control">
+       <option value="">-- Pilih Kabupaten/Kota --</option>
+       <option value="Kabupaten Bekasi">Kabupaten Bekasi</option>
+       <option value="Kota Bekasi">Kota Bekasi</option>
+       <option value="Kabupaten Bogor">Kabupaten Bogor</option>
+       <option value="Kota Depok">Kota Depok</option>
+     </select>
+	   <label for="kecamatan">Kecamatan</label>
+     <select id="kecamatan" class="form-control">
+       <option value="">-- Pilih Kecamatan --</option>
+     </select>
+       <label for="jalan">Nama Jalan/Kelurahan/Desa:</label>
+        <input type="text" id="jalan" onblur="nextStep('step3')" class="form-control"> 
+        <button type="button" onclick="nextStep">Lanjut</button>
+		
+    </div>
+    	
+		<!-- C lanjutan: Isi NIB -->
+    <div id="step2a" class="hidden">
+		<label for="nib">Nomer Induk Berusaha:</label>
+	   <input type="text" id="nib" maxlength="25" onblur="nextStep('step3')"  class="form-control">
+	   <button type="button" onclick="nextStep">Lanjut</button>
+       	</div>  
+        
+     <!-- G. Sudah punya Sertifikat Halal -->
+    <div id="step3" class="hidden">
+      <label>Apakah Anda sudah punya Sertifikat Halal?</label>
+      <select id="punyaSertifikat" onchange="cekSertifikat()" class="form-control">
+        <option value="">-- Pilih Jawaban --</option>
+        <option value="Ya">Ya</option>
+        <option value="Belum">Belum</option>
+      </select>
+	  
+    </div>
+    
+     <!-- H. Proses Sertifikat -->
+    <div id="step4" class="hidden">
+      <label>Apakah produk Anda sedang dalam proses sertifikasi halal?</label>
+      <select id="prosesSertifikat" onchange="cekProses()" class="form-control">
+        <option value="">-- Pilih Jawaban --</option>
+        <option value="Ya">Ya</option>
+        <option value="Tidak">Tidak</option>
+      </select>
+      
+	</div>   
+
+    <!-- D. Jumlah Produk -->
+    <div id="step6" class="hidden">
+      <label for="jumlahProduk">Jumlah Produk/Macam dagangan, Max 10 macam </label>
+	  <input type="number" id="jumlahProduk" maxlength="2" min="1" max="10" onblur="tampilkanProduk()" class="form-control">
+      <button type="button" onclick="nextStep">Lanjut</button>
+      
+	</div>
+
+    <!-- E. Nama Produk -->
+    <div id="produkContainer" class="hidden"></div>
+	<!--  Ingredients per produk -->
+    <div id="ingredientContainer" class="hidden"></div>
+
+    <!-- F. Bahan Tidak Halal -->
+    <div id="step7" class="hidden">
+      <label>Apakah ada bahan tidak halal?</label>
+      <select id="bahanHaram" onchange="cekBahan()" class="form-control">
+        <option value="">-- Pilih Jawaban --</option>
+        <option value="Ada">Ada</option>
+        <option value="Tidak Ada">Tidak Ada</option>
+      </select>
+    </div>
+  
+
+    <!-- I. Usaha Sejak Kapan -->
+    <div id="step8" class="hidden">
+	  <label for="email">E-mail Pelaku Usaha(diisi bila masih ingat passwordnya)</label>
+	  <input type="email" id="email" maxlength="25" placeholder="Isi -- Lupa Password ---bila sudah lupa passwordnyaK" required="" onblur="nextStep('step2')" class="form-control" oninput="this.value = this.value.toUpperCase();" style="text-transform: uppercase;">
+      
+      <label>Kapan Usaha dimulai </label>
+      <input type="date" id="tanggalMulai" onblur="nextStep('submitSection')" class="form-control">
+      <button type="button" onclick="nextStep">Lanjut</button>
+     
+	</div>
+   </div>
+    <!-- Kirim -->
+    <div id="submitSection" class="hidden" style="margin-top: 10px; justify-content: space-between; flex-wrap: wrap;">
+	<div class="cta">
+      <h2>Mau pemasukan tambahan?</h2><br>
+      <p>Ajak teman, saudara ikut Program Sertifikasi Halal Gratis!
+         Dapatkan "syiar fee" Rp 10.000 setiap Sertifikat Halal yang terbit. 
+         Ajak 10 teman atau saudara, Rp 100.000 buat anda</p><br>
+      <h4><b>Bersama kita jaga umat. Bersama kita jaga halal.</b></h4><br>
+     <h5>"Karena berdagang itu bukan sekadar untung, tapi juga ibadah."</h5>
+    </div>
+  <button type="button" onclick="kirimWhatsApp()" class="btn-kirim">Kirim</button>
+  <a href="https://pinturizkymyfamily.biz.id/" class="btn-keluar">Keluar</a>
+</div>
+ 
+  <footer style="background-color:#007BFF; color:white; padding:20px; text-align:center; margin-top:40px;">
+      <nav>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#formHalal">Daftar</a>
+      </nav>
+  <p>© 2025 Proses Produk Halal. Semua hak dilindungi.</p>
+  
+</footer>
+
+  <script>
+    function nextStep(stepId) {
+      document.getElementById(stepId).classList.remove("hidden");
+    }
+    const daftarKecamatan = {
+  "Kabupaten Bekasi": [
+    "Babelan", "Bojongmangu", "Cabangbungin", "Cibarusah", "Cibitung",
+    "Cikarang Barat", "Cikarang Pusat", "Cikarang Selatan", "Cikarang Timur", "Cikarang Utara",
+    "Karangbahagia", "Kedungwaringin", "Muara Gembong", "Pebayuran", "Serang Baru",
+    "Setu", "Sukakarya", "Sukatani", "Sukawangi", "Tambelang",
+    "Tambun Selatan", "Tambun Utara", "Tarumajaya"
+  ],
+  "Kota Bekasi": [
+    "Bekasi Barat", "Bekasi Selatan", "Bekasi Timur", "Bekasi Utara",
+    "Jatiasih", "Jatisampurna", "Medan Satria", "Mustika Jaya",
+    "Pondok Gede", "Pondok Melati", "Rawalumbu", "Bantar Gebang"
+  ],
+  "Kabupaten Bogor": ["Cileungsi"],
+  "Kota Depok": ["Cimanggis"]
+};
+
+function tampilkanKecamatan() {
+  const kab = document.getElementById("kabupaten").value;
+  const kecSelect = document.getElementById("kecamatan");
+  kecSelect.innerHTML = "<option value=''>-- Pilih Kecamatan --</option>";
+  
+  if (kab in daftarKecamatan) {
+    daftarKecamatan[kab].forEach(kec => {
+      const option = document.createElement("option");
+      option.value = kec;
+      option.text = kec;
+      kecSelect.appendChild(option);
+    });
+  }
+}
+	function cekNib() {
+      const nibStatus = document.getElementById("nibStatus").value;
+      if (nibStatus === "Punya") {
+        nextStep("step2a");
+      } else if (nibStatus === "Belum Punya") {
+        nextStep("step5");
+      }
+    }
+	
+    function cekAgama() {
+      const agama = document.getElementById("agama").value;
+      if (agama === "Islam") {
+        nextStep("step2");
+      } else if (agama === "Non Islam") {
+        nextStep("step1a");
+      }
+    }
+    function cekPenyelia() {
+      const value = document.getElementById("punyaPenyelia").value;
+      if (value === "Ya") {
+        nextStep("step2");
+      } else {
+        alert("Tidak bisa proses sertifikat halal.");
+        window.location.href = "https://pinturizkymyfamily.biz.id/";
+      }
+    }
+    
+    function cekSertifikat() {
+      const value = document.getElementById("punyaSertifikat").value;
+      if (value === "Ya") {
+        alert("Tidak bisa 2 kali.");
+        window.location.href = "https://pinturizkymyfamily.biz.id/";
+      } else {
+        nextStep("step4");
+      }
+    }
+
+    function cekProses() {
+      const value = document.getElementById("prosesSertifikat").value;
+      if (value === "Ya") {
+        alert("Silakan ditunggu prosesnya.");
+        window.location.href = "https://pinturizkymyfamily.biz.id/";
+      } else {
+        nextStep("step6");
+       }
+      }
+	
+    function tampilkanProduk() {
+    const jumlah = parseInt(document.getElementById("jumlahProduk").value);
+    const produkDiv = document.getElementById("produkContainer"); produkDiv.innerHTML = "";
+      if (jumlah > 0) {
+      for (let i = 1; i <= jumlah; i++) {
+      const wrapper = document.createElement("div");
+      wrapper.style.marginBottom = "20px";
+      wrapper.id = `produkWrapper${i}`;
+
+      const labelProduk = document.createElement("label");
+      labelProduk.textContent = "Nama Produk / Dagangan" + i;
+      const inputProduk = document.createElement("input");
+      inputProduk.type = "text";
+      inputProduk.placeholder ="Contoh: Jus Buah, Es Teh, Donat, Ketropak, Cilok, Somay, Bakso, dll"; 
+      inputProduk.id = "produk" + i;
+
+      const labelJumlahBahan = document.createElement("label");
+      labelJumlahBahan.textContent = `Jumlah Bahan untuk Produk ${i}`;
+      const inputJumlahBahan = document.createElement("input");
+      inputJumlahBahan.type = "number";
+      inputJumlahBahan.min = "5";
+      inputJumlahBahan.max = "30";
+      inputJumlahBahan.id = `jumlahBahan${i}`;
+      inputJumlahBahan.onblur = () => tampilkanBahan(i);
+
+      const divBahan = document.createElement("div");
+      divBahan.id = `bahanProduk${i}`;
+      divBahan.style.marginTop = "10px";
+
+      wrapper.appendChild(labelProduk);
+      wrapper.appendChild(inputProduk);
+      wrapper.appendChild(labelJumlahBahan);
+      wrapper.appendChild(inputJumlahBahan);
+      wrapper.appendChild(divBahan);
+
+      produkDiv.appendChild(wrapper);
+    }
+
+    produkDiv.classList.remove("hidden");
+    nextStep("step7");
+  }
+}
+
+    function tampilkanBahan(produkKe) {
+    const jumlahBahan = parseInt(document.getElementById(`jumlahBahan${produkKe}`).value);
+    const container = document.getElementById(`bahanProduk${produkKe}`);
+    container.innerHTML = "";
+
+  if (jumlahBahan > 0) {
+    const title = document.createElement("h4");
+    title.textContent = `Bahan-bahan Produk ${produkKe}`;
+    container.appendChild(title);
+
+    for (let i = 1; i <= jumlahBahan; i++) {
+      const label = document.createElement("label");
+      label.textContent = `Bahan ${i}`;
+      const input = document.createElement("input");
+      input.type = "text";
+      input.placeholder ="Contoh: Tepung Segitiga Biru, Garam Refina, Sabun Mamalemon,dll"; 
+      input.id = `produk${produkKe}_bahan${i}`;
+      container.appendChild(label);
+      container.appendChild(input);
+    }
+  }
+}
+     
+    function cekBahan() {
+      const value = document.getElementById("bahanHaram").value;
+      if (value === "Ada") {
+        alert("Maaf tidak bisa lanjut.");
+        window.location.href = "https://pinturizkymyfamily.biz.id/";
+      } else {
+        nextStep("step8");
+      }
+    }
+    
+      
+    function kirimWhatsApp() {
+      const nama = document.getElementById("nama").value;
+	  const noHp = document.getElementById("noHp").value;
+	  const namaAff = document.getElementById("namaAff").value;
+	  const noAff = document.getElementById("noAff").value;
+	  const nib = document.getElementById("nib").value;
+	  const email = document.getElementById("email").value;
+      const agama = document.getElementById("agama").value;
+      const jalan = document.getElementById("jalan").value;
+      const kecamatan = document.getElementById("kecamatan").value;
+      const kabupaten = document.getElementById("kabupaten").value;
+      const provinsi = document.getElementById("provinsi").value;
+      const jumlahProduk = document.getElementById("jumlahProduk").value;
+      const tanggalMulai = document.getElementById("tanggalMulai").value;
+
+      let daftarProduk = "";
+      for (let i = 1; i <= jumlahProduk; i++) {
+      const namaProduk = document.getElementById("produk" + i).value;
+      const jumlahBahan = parseInt(document.getElementById("jumlahBahan" + i).value);
+      daftarProduk += `\n${i}. ${namaProduk}\n   Jumlah Bahan: ${jumlahBahan}\n`;
+
+      for (let j = 1; j <= jumlahBahan; j++) {
+      const bahan = document.getElementById(`produk${i}_bahan${j}`).value;
+      daftarProduk += `     - Bahan ${j}: ${bahan}\n`;
+      }
+    }          
+
+     const pesan = `*Formulir Sertifikasi Halal:*\n\n` +
+    `Nama: ${nama}\n` +
+	`Nomer aktif: ${noHp}\n` +
+	`Info dari: ${namaAff}\n` +
+	`Nomer yg kasi info: ${noAff}\n` +
+    `Agama: ${agama}\n\n` +
+    `NIB: ${nib}\n` +   
+    `Alamat:\nJalan: ${jalan}\nKecamatan: ${kecamatan}\nKabupaten/Kota: ${kabupaten}\nProvinsi: ${provinsi}\n\n` +
+    `Produk & Bahan:\n${daftarProduk}\n` +
+    `Email: ${email}\n` +
+    `Usaha Berjalan Sejak: ${tanggalMulai}`;
+
+      const noWa = "6281399352347";
+      const linkWa = `https://api.whatsapp.com/send?phone=${noWa}&text=${encodeURIComponent(pesan)}`;
+      window.open(linkWa, '_blank');
+    }
+	
+	
+  </script>
+</body>
+</html> 
+
+
+           
